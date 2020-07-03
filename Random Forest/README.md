@@ -7,11 +7,15 @@ have all trees predict and then take the mode.
 
 ## random_stump
 **Acknowledgement:** This file is copied from UBC CPSC 340 course material.
+
 This file contains one class: RandomStumpInfoGain.
+
 The **RandomStumpInfoGain** class only considers **√d** randomly-chosen features, using Information Gain as criteria. 
 
 ## random_tree
 **Acknowledgement:** This file is copied from UBC CPSC 340 course material.
+
 This file contains one class: RandomTree.
+
 **RandomTree** class is the same as **DecisionTree** class except that it uses **_RandomStump_** instead of DecisionStump and it takes a **_bootstrap
 sample_** of the data before fitting.
